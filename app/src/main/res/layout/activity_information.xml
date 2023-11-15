@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp">
+
+        <TextView
+            android:id="@+id/info_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginVertical="20dp"
+            android:text="ID0000"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/info_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pham Ngan"
+            android:textSize="30sp"
+            android:layout_marginVertical="20dp"
+            android:layout_alignParentEnd="true"/> <!-- Thêm dòng này -->
+
+        <TextView
+            android:id="@+id/info_phoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0387198139"
+            android:textSize="30sp"
+            android:layout_marginVertical="20dp"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:id="@+id/info_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginVertical="20dp"
+            android:text="Oneemail@gmail.com"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</RelativeLayout>
